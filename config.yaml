@@ -1,0 +1,9 @@
+configuration:
+  # 配置搜索关键字的地方， 必须用引文逗号分隔开，并使用英文双引号
+  keywords: ["解放","自由"]
+  # pdf 存放地址， 只需要指定路径就行了
+  raw_file_location: 'D:\outprojects\pdf_retrieval\results\health'
+  # 检索后得到的excel的路径和文件名，比如 d:\\result.xlsx, 注意 需要用两个反斜杠分隔
+  excel_file: "d:\\result.xlsx"
+
+
