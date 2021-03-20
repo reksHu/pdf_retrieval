@@ -69,7 +69,6 @@ class ParsePDFFile:
                             if (isinstance(x, LTTextBoxHorizontal)):
                                 results = x.get_text()
                                 if stop_sentence not in results:
-                                    print(type(results))
                                     f.write(results)
                     except Exception:
                         print("error occurred on the page:")
